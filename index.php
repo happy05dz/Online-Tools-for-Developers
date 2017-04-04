@@ -37,6 +37,8 @@ encoders and decoders, message digesters, web resources and more. </p>
   <ul>
 	<li><a href="?id=base64-encoder" title="Base64 Encoder">Base64 Encoder</a></li>
 	<li><a href="?id=base64-decoder" title="Base64 Decoder">Base64 Decoder</a></li>
+	<li><a href="?id=gzdeflate-base64-encoder" title="gzdeflate & base64 encode">gzdeflate & base64 encode</a></li>
+	<li><a href="?id=gzdeflate-base64-decoder" title="base64 decode & gzinflate">base64 decode & gzinflate</a></li>
   </ul>  
  </div>
 
@@ -53,13 +55,13 @@ encoders and decoders, message digesters, web resources and more. </p>
  <div class="left">
   <ul>
 	<li><a href="?id=md5-generator" title="MD5 Generator">MD5 Generator</a></li>
-	<li><a href="?id=..." title="SHA-256 Generator">SHA-256 Generator</a></li>
+	<li><a href="?id=SHA-256-generator" title="SHA-256 Generator">SHA-256 Generator</a></li>
   </ul>  
  </div>
 
  <div class="right">
   <ul>
-	<li><a href="?id=..." title="SHA-512 Generator">SHA-512 Generator</a></li>
+	<li><a href="?id=SHA-512-generator" title="SHA-512 Generator">SHA-512 Generator</a></li>
 	<li><a href="?id=..." title="HMAC Generator">HMAC Generator</a></li>
   </ul>  
  </div>
@@ -76,8 +78,7 @@ encoders and decoders, message digesters, web resources and more. </p>
 
  <div class="right">
   <ul>
-	<li><a href="?id=..." title="...">..</a></li>
-	<li><a href="?id=..." title="...">..</a></li>
+
   </ul>  
  </div>
 </div>
@@ -97,9 +98,48 @@ encoders and decoders, message digesters, web resources and more. </p>
   </ul>  
  </div>
 </div>
+<!-- Webmaster Tools -->
+<div id="tools-category">
+<h3>String Escaper & Utilites</h3>
+ <div class="left">
+  <ul>
+	<li><a href="?id=..." title="Robots.txt Validator">String Utilities</a></li>
 
-</div><!-- End content -->
+  </ul>  
+ </div>
+
+ <div class="right">
+  <ul>
+
+  </ul>  
+ </div>
+</div>
+<!-- Resources -->
+<div id="tools-category">
+<h3>Resources</h3>
+ <div class="left">
+  <ul>
+	<li><a href="?id=html-entities" title="HTML Entity List">HTML Entity List</a></li>
+
+  </ul>  
+ </div>
+
+ <div class="right">
+  <ul>
+
+  </ul>  
+ </div>
+</div>
+<p>&nbsp;</p>
 
 <?php
 	}
 ?>
+ <!-- Footer -->
+<div class="toolsmenu">
+   &nbsp;&nbsp;H@PPyZERØ5 in <a rel="nofollow" href="https://github.com/happy05dz" title="happy05dz">Github</a>&nbsp;&nbsp;
+   Email: <a rel="nofollow" href="mailto:happy05@programmer.net" title="happy05dz">happy05@programmer.net</a>
+  </div>
+</div><!-- End content -->
+ </body>
+</HTML>

@@ -23,15 +23,15 @@ function test_input($data) {
 }
 ?>
 
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>#result">  
-<label><b>Enter text :</b><br /> 
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]);?>#result">  
+<label><b>Original CSS :</b><br /> 
 <textarea name="text" rows="10" cols="80"><?php echo $text;?></textarea><br />
 <span class="error">* <?php echo $textErr;?></span>
 <input type="submit" name="submit" value="Compress">  
 </form>
 
 <?php
-echo "<br /><b>النص المشفر :</b><br />";
+echo "<br /><b>Compressed CSS :</b><br />";
 //echo $text;
 
 if ($text <> ""){
@@ -78,31 +78,12 @@ foreach ($eContent as $key => $value) {
 }
 
 echo '<div id="result">';
-echo '<P lang="en" dir="ltr" align="right">';
 echo '<textarea name="result" rows="10" cols="80">'.$css_comp.'</textarea>';
-echo '</p>';
 echo '</div>';
 ?>
 </p>
 
- <?php
-$size = mb_strlen($text, '8bit');
-if($size >= 1024)
-    $size = round($size / 1024, 2).' KB';
-else
-    $size = $size.' bytes';
-echo $size;
-?> 
-<br>
 
- <?php
-$size = mb_strlen($css_comp, '8bit');
-if($size >= 1024)
-    $size = round($size / 1024, 2).' KB11111';
-else
-    $size = $size.' bytes';
-echo $size;
-?> 
 
 <br><br><br><br>
 

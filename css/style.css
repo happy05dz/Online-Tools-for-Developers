@@ -160,13 +160,27 @@ position:center;
 }
 
 table {
+	border: 1px dashed #355B4C;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 table td {
 	margin: 0 auto;
 	font-family: Times New Roman; 
 	font-size: 14pt; 
-	text-align: justify; 
+	padding: 2px;
+}
+
+table th {
+border: 1px dashed #355B4C;	
+padding: 5px;
+text-align: center;
+}
+
+table td {
+border: 1px dashed #355B4C;	
+text-align: center;
 }
 
 .error {color: #FF0000;}
@@ -295,6 +309,7 @@ a.more-link:hover{background:#444 !important;text-decoration: none !important;}
     list-style:none;
 }
 #tools-category {
+	display: inline-block;
     margin: 0;
     width: 100%;
 }

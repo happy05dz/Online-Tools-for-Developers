@@ -16,6 +16,8 @@ Collection of Tools for Software Developers,These tools include several formatte
 ## Encoders & decoders Tools
 - Base64 Encoder
 - Base64 Decoder
+- gzdeflate & base64 encode
+- base64 decode & gzinflate
 - URL Encoder
 - URL Decoder
 
