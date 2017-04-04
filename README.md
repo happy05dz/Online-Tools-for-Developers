@@ -7,11 +7,11 @@ Collection of Tools for Software Developers,These tools include several formatte
   </div>
   
 ## Contents
-- [Encoders & decoders Tools](#Encoders-&-decoders-Tools)
-- [Cryptography & Security Tools](#Cryptography-&-Security Tools)
-- [Search engine optimization Tools](#Search-engine-optimization-Tools)
-- [Webmaster Tools](#Webmaster-Tools)
-- [Resources](#Resources)
+- [Encoders & decoders Tools](#encoders--decoders-tools)
+- [Cryptography & Security Tools](#cryptography--security-tools)
+- [Search engine optimization Tools](#search-engine-optimization-tools)
+- [Webmaster Tools](#webmaster-tools)
+- [Resources](#resources)
 
 ## Encoders & decoders Tools
 - Base64 Encoder
