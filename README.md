@@ -18,8 +18,14 @@ Collection of Tools for Software Developers,These tools include several formatte
 - Base64 Decoder
 - gzdeflate & base64 encode
 - base64 decode & gzinflate
+- ROT13 Encoder
+- ROT13 Decoder
 - URL Encoder
 - URL Decoder
+- ROT47 Encoder
+- ROT47 Decoder
+- XOR Encrypt
+- XOR Decrypt
 
 ## Cryptography & Security Tools
 - MD5 Generator
