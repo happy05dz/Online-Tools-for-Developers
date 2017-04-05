@@ -28,10 +28,16 @@ Collection of Tools for Software Developers,These tools include several formatte
 - XOR Decrypt
 
 ## Cryptography & Security Tools
+- MD2 Generator
+- MD4 Generator
 - MD5 Generator
+- SHA1 Generator
+- SHA-224 Generator
 - SHA-256 Generator
+- SHA-384 Generator
 - SHA-512 Generator
 - HMAC Generator
+- CRC32 Generator
 
 ## Search engine optimization Tools
 - CSS Minifier
