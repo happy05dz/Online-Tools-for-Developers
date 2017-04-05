@@ -1,7 +1,7 @@
-<h2>Base64 Encoder</h2>
+<h2>ROT47 Encoder</h2>
 <?php
 $text = "";
-$base64_encode = "";
+$rot47_encode = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["text"])) {
@@ -15,6 +15,14 @@ function test_input($data) {
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
   return $data;
+}
+
+function str_rot47($str)
+{
+  return strtr($str, 
+    '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~', 
+    'PQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNO'
+  );
 }
 ?>
 <p><b>Enter text :</b></p>
@@ -37,12 +45,12 @@ echo '</div>';
 echo "<p><b>Encoded text :</b></p>";
 
 if ($text <> ""){
-  $base64_encode = base64_encode($text);  
+  $rot47_encode = str_rot47($text);  
  }
 
 echo '<div id="result">';
 echo '<form class="FormManagertools"><ul><li>';
-echo '<textarea name="result" class="field-style">'.$base64_encode.'</textarea></li></ul></form>';
+echo '<textarea name="result" class="field-style">'.$rot47_encode.'</textarea></li></ul></form>';
 echo '</div>';
 ?>
 <p>&nbsp;</p>

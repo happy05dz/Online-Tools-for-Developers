@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
+  $data = htmlspecialchars($data);
   return $data;
 }
 ?>
@@ -42,8 +43,7 @@ if ($text <> ""){
 
 echo '<div id="result">';
 echo '<form class="FormManagertools"><ul><li>';
-echo '<P lang="en" dir="ltr" align="right">';
-echo '<textarea name="result" class="field-style">'.$base64_decode.'</textarea></p></li></ul></form>';
+echo '<textarea name="result" class="field-style">'.$base64_decode.'</textarea></li></ul></form>';
 echo '</div>';
 ?>
 <p>&nbsp;</p>

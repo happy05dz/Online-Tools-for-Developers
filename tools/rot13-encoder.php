@@ -1,7 +1,7 @@
-<h2>Base64 Encoder</h2>
+<h2>ROT13 Encoder</h2>
 <?php
 $text = "";
-$base64_encode = "";
+$rot13_encode = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["text"])) {
@@ -37,12 +37,12 @@ echo '</div>';
 echo "<p><b>Encoded text :</b></p>";
 
 if ($text <> ""){
-  $base64_encode = base64_encode($text);  
+  $rot13_encode = str_rot13($text);  
  }
 
 echo '<div id="result">';
 echo '<form class="FormManagertools"><ul><li>';
-echo '<textarea name="result" class="field-style">'.$base64_encode.'</textarea></li></ul></form>';
+echo '<textarea name="result" class="field-style">'.$rot13_encode.'</textarea></li></ul></form>';
 echo '</div>';
 ?>
 <p>&nbsp;</p>

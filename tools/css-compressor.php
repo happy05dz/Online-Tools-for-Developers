@@ -1,4 +1,3 @@
-<p>
 <h2>CSS Minifier</h2>
 <br>
 
@@ -78,12 +77,8 @@ foreach ($eContent as $key => $value) {
 }
 
 echo '<div id="result">';
-echo '<textarea name="result" rows="10" cols="80">'.$css_comp.'</textarea>';
+echo '<form class="FormManagertools"><ul><li>';
+echo '<textarea name="result" rows="10" cols="80">'.$css_comp.'</textarea></li></ul></form>';
 echo '</div>';
 ?>
-</p>
-
-
-
-<br><br><br><br>
-
+<p>&nbsp;</p>	

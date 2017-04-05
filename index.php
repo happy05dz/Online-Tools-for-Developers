@@ -1,3 +1,32 @@
+<?php
+/*                        # ##  ##  ##  #
+                       ####################
+                     ####      # #  #     ####
+                  ###                         ###
+                 ###                 #####     ###      
+                ###    #######                  ###
+               ###     ###### #      ######      ###
+               ###     # ## #        # ## #      ###
+               ###     ######        ######      ###
+               ###             ###               ###
+               ###             ###               ###
+               ######          ###            ######
+               ###   ###                   ###   ###
+                ###  ## ###################  ## ###
+                 ### ##   ##    ##   ##   ## #####
+                  ### #   ##    ##   ##   ##  ###
+                    ###   ##    ##   ##   # ###
+                     #### ##    ##   ##   ####
+                         #####  ##    #####
+                              ########
+
+=============================================================
+            _.---[Online Tools for Developers]---._
+By: H@PPyZERØ5
+E-mail: happy05@programmer.net
+Github: https://github.com/happy05dz 
+==============================================================*/
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
   <head>
@@ -39,6 +68,8 @@ encoders and decoders, message digesters, web resources and more. </p>
 	<li><a href="?id=base64-decoder" title="Base64 Decoder">Base64 Decoder</a></li>
 	<li><a href="?id=gzdeflate-base64-encoder" title="gzdeflate & base64 encode">gzdeflate & base64 encode</a></li>
 	<li><a href="?id=gzdeflate-base64-decoder" title="base64 decode & gzinflate">base64 decode & gzinflate</a></li>
+	<li><a href="?id=rot13-encoder" title="ROT13 Encoder">ROT13 Encoder</a></li>
+	<li><a href="?id=rot47-decoder" title="ROT13 Decoder">ROT13 Decoder</a></li>
   </ul>  
  </div>
 
@@ -46,6 +77,10 @@ encoders and decoders, message digesters, web resources and more. </p>
   <ul>
 	<li><a href="?id=url-encoder" title="URL Encoder">URL Encoder</a></li>
 	<li><a href="?id=url-decoder" title="URL Decoder">URL Decoder</a></li>
+	<li><a href="?id=rot47-encoder" title="ROT47 Encoder">ROT47 Encoder</a></li>
+	<li><a href="?id=rot47-decoder" title="ROT47 Decoder">ROT47 Decoder</a></li>
+	<li><a href="?id=xor-encrypt" title="XOR Encrypt">XOR Encrypt</a></li>
+	<li><a href="?id=xor-decrypt" title="XOR Decrypt">XOR Decrypt</a></li>
   </ul>  
  </div>
 </div>
