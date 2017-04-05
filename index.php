@@ -89,15 +89,21 @@ encoders and decoders, message digesters, web resources and more. </p>
 <h3>Cryptography & Security Tools</h3>
  <div class="left">
   <ul>
+	<li><a href="?id=md2-generator" title="MD2 Generator">MD2 Generator</a></li>
+	<li><a href="?id=md4-generator" title="MD4 Generator">MD4 Generator</a></li>
 	<li><a href="?id=md5-generator" title="MD5 Generator">MD5 Generator</a></li>
+	<li><a href="?id=sha1-generator" title="SHA1 Generator">SHA1 Generator</a></li>
+	<li><a href="?id=SHA-224-generator" title="SHA-224 Generator">SHA-224 Generator</a></li>
 	<li><a href="?id=SHA-256-generator" title="SHA-256 Generator">SHA-256 Generator</a></li>
   </ul>  
  </div>
 
  <div class="right">
   <ul>
+	<li><a href="?id=SHA-384-generator" title="SHA-384 Generator">SHA-384 Generator</a></li>
 	<li><a href="?id=SHA-512-generator" title="SHA-512 Generator">SHA-512 Generator</a></li>
 	<li><a href="?id=..." title="HMAC Generator">HMAC Generator</a></li>
+	<li><a href="?id=crc32-generator" title="CRC32 Generator">CRC32 Generator</a></li>
   </ul>  
  </div>
 </div>
