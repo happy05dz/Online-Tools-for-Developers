@@ -135,7 +135,7 @@ encoders and decoders, message digesters, web resources and more. </p>
 
  <div class="right">
   <ul>
-
+	<li><a href="?id=image-to-base64" title="Convert Images to Base64">Convert Images to Base64</a></li>
   </ul>  
  </div>
 </div>

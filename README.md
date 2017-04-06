@@ -46,6 +46,7 @@ Collection of Tools for Software Developers,These tools include several formatte
 ## Webmaster Tools
 - Robots.txt Validator
 - user information privacy
+- Convert Images to Base64
 
 ## Resources
 - HTML Entity List
