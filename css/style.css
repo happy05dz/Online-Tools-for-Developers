@@ -315,9 +315,13 @@ a.more-link:hover{background:#444 !important;text-decoration: none !important;}
 }
 .left {
     float: left;
-    width: 60%;
+    width: 33%;
+}
+.middle {
+    float: left;
+    width: 33%;
 }
 .right {
-    overflow: hidden;
-    width: 40%;
+	float: left;
+    width: 33;
 }
