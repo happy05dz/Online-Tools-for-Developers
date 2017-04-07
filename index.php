@@ -112,7 +112,7 @@ encoders and decoders, message digesters, web resources and more. </p>
 
  <div class="right">
   <ul>
-	<li><a href="?id=..." title="HMAC Generator">HMAC Generator</a></li>
+	<li><a href="?id=hmac-generator" title="HMAC Generator">HMAC Generator</a></li>
 	<li><a href="?id=crc32-generator" title="CRC32 Generator">CRC32 Generator</a></li>
   </ul>  
  </div>
