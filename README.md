@@ -47,6 +47,7 @@ Collection of Tools for Software Developers,These tools include several formatte
 - Convert HTML to Text
 - IP Address Converter
 - HTML Obfuscate
+- Hide Your Email
 
 ## Image tools
 - Convert Images to Base64
