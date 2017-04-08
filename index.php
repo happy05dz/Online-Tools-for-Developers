@@ -117,6 +117,29 @@ encoders and decoders, message digesters, web resources and more. </p>
   </ul>  
  </div>
 </div>
+<!-- Webmaster Tools -->
+<div id="tools-category">
+<h3>Webmaster Tools</h3>
+ <div class="left">
+  <ul>
+	<li><a href="?id=online-privacy-ip-browser-info" title="user information privacy">user information privacy</a></li>
+	<li><a href="?id=convert-html-to-text" title="Convert HTML to Text">Convert HTML to Text</a></li>
+  </ul>  
+ </div>
+ 
+ <div class="middle">
+  <ul>
+	<li><a href="?id=ip-address-converter" title="IP Address Converter">IP Address Converter</a></li>
+	<li><a href="?id=html-obfuscate" title="HTML Obfuscate">HTML Obfuscate</a></li>	
+  </ul>  
+ </div>
+ 
+ <div class="right">
+  <ul>
+
+  </ul>  
+ </div>
+</div>
 <!-- Search engine optimization Tools -->
 <div id="tools-category">
 <h3>Search engine optimization Tools</h3>
@@ -129,27 +152,6 @@ encoders and decoders, message digesters, web resources and more. </p>
  <div class="middle">
   <ul>
 
-  </ul>  
- </div>
- 
- <div class="right">
-  <ul>
-
-  </ul>  
- </div>
-</div>
-<!-- Webmaster Tools -->
-<div id="tools-category">
-<h3>Webmaster Tools</h3>
- <div class="left">
-  <ul>
-	<li><a href="?id=online-privacy-ip-browser-info" title="user information privacy">user information privacy</a></li>
-  </ul>  
- </div>
- 
- <div class="middle">
-  <ul>
-	<li><a href="?id=ip-address-converter" title="IP Address Converter">IP Address Converter</a></li>
   </ul>  
  </div>
  

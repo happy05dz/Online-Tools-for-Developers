@@ -44,7 +44,9 @@ Collection of Tools for Software Developers,These tools include several formatte
 
 ## Webmaster Tools
 - user information privacy
+- Convert HTML to Text
 - IP Address Converter
+- HTML Obfuscate
 
 ## Image tools
 - Convert Images to Base64
