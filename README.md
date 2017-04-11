@@ -11,6 +11,7 @@ Collection of Tools for Software Developers,These tools include several formatte
 - [Cryptography & Security Tools](#cryptography--security-tools)
 - [Search engine optimization Tools](#search-engine-optimization-tools)
 - [Webmaster Tools](#webmaster-tools)
+- [Image tools](#image-tools)
 - [Resources](#resources)
 
 ## Encoders & decoders Tools
