@@ -49,6 +49,7 @@ Collection of Tools for Software Developers,These tools include several formatte
 - IP Address Converter
 - HTML Obfuscate
 - Hide Your Email
+- Color Chooser
 
 ## Image tools
 - Convert Images to Base64

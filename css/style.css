@@ -183,6 +183,11 @@ border: 1px dashed #355B4C;
 text-align: center;
 }
 
+code{
+    border:1px solid #ddd;
+	padding:5px;
+	display:block}
+	
 .error {color: #FF0000;}
 .noerror {color: #008000;}
 

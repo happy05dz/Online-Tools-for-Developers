@@ -35,6 +35,7 @@ Github: https://github.com/happy05dz
        <META NAME="Description" CONTENT="Collection of Tools for Software Developers,These tools include several formatters, validators, code minifiers, string escapers,...">
        <META NAME="Keywords" CONTENT="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Web development,tools">
        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	   <script src="js/jquery.min.js"></script>
   </head>
 
 <body>
@@ -137,6 +138,7 @@ encoders and decoders, message digesters, web resources and more. </p>
  <div class="right">
   <ul>
 	<li><a href="?id=hide-your-email" title="Hide Your Email">Hide Your Email</a></li>	
+	<li><a href="?id=color-chooser" title="Color Chooser">Color Chooser</a></li>	
   </ul>  
  </div>
 </div>
