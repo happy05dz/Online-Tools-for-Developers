@@ -214,19 +214,18 @@ encoders and decoders, message digesters, web resources and more. </p>
  <div class="left">
   <ul>
 	<li><a href="?id=html-entities" title="HTML Entity List">HTML Entity List</a></li>
-
   </ul>  
  </div>
  
  <div class="middle">
   <ul>
-
+	<li><a href="?id=r-packages-list" title="R Packages List">R Packages List</a></li>
   </ul>  
  </div>
  
  <div class="right">
   <ul>
-
+	<li><a href="?id=linux-commands" title="Linux Command Examples">Linux Command Examples</a></li>
   </ul>  
  </div>
 </div>
