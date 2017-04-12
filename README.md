@@ -61,6 +61,8 @@ Collection of Tools for Software Developers,These tools include several formatte
 
 ## Resources
 - HTML Entity List
+- R Packages List
+- Linux Command Examples
 
 
 ---
